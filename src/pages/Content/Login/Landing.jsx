@@ -33,7 +33,7 @@ const Landing = () => {
                 justify-content: space-around;
                 align-items: center;
                 height: 60vh;
-                width: 30vw;
+                width: 27vw;
                 // border: 1px solid black;
                 border-radius: 2px;
                 padding: 20px;
@@ -41,7 +41,7 @@ const Landing = () => {
                 box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
                 position: absolute;
                 top: 34%;
-                left: 83%;
+                left: 84%;
                 transform: translate(-50%, -50%);
             }
 
