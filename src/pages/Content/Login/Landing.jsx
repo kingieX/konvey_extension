@@ -1,8 +1,15 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import Logo from '../images/32.png'
 
 const Landing = () => {
+  const navigate = useNavigate();
   // all the logic for login goes here
+
+  const handleLogin = () => {
+    navigate('/setup')
+  }
+    
 
 
   return (
@@ -16,7 +23,7 @@ const Landing = () => {
             <p>Please login to continue</p>
         </div>
         <div className='btn'>
-            <button>Login</button>
+            <button onClick={handleLogin}>Login</button>
         </div>
         <style>
         {`
