@@ -33,15 +33,15 @@ const Landing = () => {
                 justify-content: space-around;
                 align-items: center;
                 height: 60vh;
-                width: 25vw;
+                width: 30vw;
                 // border: 1px solid black;
                 border-radius: 2px;
                 padding: 20px;
                 background-color: #fff;
                 box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
                 position: absolute;
-                top: 35%;
-                left: 85%;
+                top: 34%;
+                left: 83%;
                 transform: translate(-50%, -50%);
             }
 
@@ -75,16 +75,18 @@ const Landing = () => {
             .wel p {
               margin-top: -5px;
               font-weight: 500;
+              font-size: 1em;
             }
 
             .btn button {
-              width: 150px;
+              width: 210px;
               height: 30px;
               border: none;
               border-radius: 20px;
               background-color: #4b84f3;
               color: white;
               font-weight: 500;
+              font-size: 1em;
               margin-bottom: 10px;
               cursor: pointer;
             }

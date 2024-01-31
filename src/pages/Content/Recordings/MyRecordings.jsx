@@ -41,7 +41,7 @@ const MyRecordings = () => {
                 // justify-content: start;
                 // align-items: center;
                 height: 70vh;
-                width: 28vw;
+                width: 30vw;
                 // border: 1px solid black;
                 border-radius: 2px;
                 // padding: 0 20px;
@@ -49,7 +49,7 @@ const MyRecordings = () => {
                 box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
                 position: absolute;
                 top: 36%;
-                left: 85%;
+                left: 84%;
                 transform: translate(-50%, -50%);
             }
 

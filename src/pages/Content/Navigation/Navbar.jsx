@@ -90,7 +90,7 @@ const Navbar = () => {
               // border-bottom: 1px solid #4b84f3;
             }
             .menu img {
-              width: 14px;
+              width: 18px;
             }
 
 				`}

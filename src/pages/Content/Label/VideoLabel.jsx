@@ -65,15 +65,15 @@ const VideoLabel = () => {
                 flex-direction: column;
                 // justify-content: start;
                 // align-items: center;
-                height: 75vh;
+                height: 72vh;
                 width: 30vw;
                 // border: 1px solid black;
                 border-radius: 2px;
-                // padding: 0 20px;
+                // padding: 0 10px;
                 background-color: rgb(249, 249, 249);
                 box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
                 position: absolute;
-                top: 39%;
+                top: 37%;
                 left: 84%;
                 transform: translate(-50%, -50%);
             }
@@ -90,7 +90,7 @@ const VideoLabel = () => {
 
             .inputStyle {
                 display: flex;
-                // flex-direction: row;
+                flex-direction: row;
                 gap: 10px;
                 justify-content: space-around;
                 align-items: center;
@@ -101,10 +101,11 @@ const VideoLabel = () => {
                 border: 1px solid #ddd;
                 outline: none;
                 border-radius: 5px;
+                margin-left: -5px;
             }
             .inputStyle .btn {
                 font-size: 0.7em;
-                padding: 10px 10px;
+                padding: 10px;
                 border: none;
                 border-radius: 5px;
                 cursor: pointer;

@@ -83,16 +83,16 @@ const RecordSetup = () => {
                 flex-direction: column;
                 // justify-content: start;
                 // align-items: center;
-                height: 62vh;
-                width: 25vw;
+                height: 68vh;
+                width: 30vw;
                 // border: 1px solid black;
                 border-radius: 2px;
-                padding: 0 20px;
+                // padding: 0 10px;
                 background-color: #fff;
                 box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
                 position: absolute;
-                top: 32%;
-                left: 85%;
+                top: 35%;
+                left: 84%;
                 transform: translate(-50%, -50%);
             }
 
@@ -115,7 +115,7 @@ const RecordSetup = () => {
             }
             
             .SwitchRoot {
-              width: 45px;
+              width: 50px;
               height: 25px;
               background-color: rgb(185, 194, 193);
               border: 1px solid rgb(185, 194, 193);
@@ -145,7 +145,7 @@ const RecordSetup = () => {
               will-change: transform;
             }
             .SwitchThumb[data-state='checked'] {
-              transform: translateX(14px);
+              transform: translateX(19px);
               background-color: #4b84f3;
             }
             
@@ -160,14 +160,19 @@ const RecordSetup = () => {
               margin-top: 15px;
             }
             .resolution select {
-              width: 200px;
+              width: 210px;
               height: 30px;
               background-color: rgb(230, 246, 247);
               font-size: 0.7em;
               border-radius: 5px;
               border: none;
-              padding: 5px;
+              padding: 0 10px;
               outline: none;
+              appearance: none;
+              background-image: url('data:image/svg+xml;utf8,<svg fill="%23333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+              background-size: 30px 30px;
+              background-position: right center;
+              background-repeat: no-repeat;
             }
             .resolution select option {
               background-color: white;
@@ -183,7 +188,7 @@ const RecordSetup = () => {
               gap: 5px;
               background-color: rgb(230, 246, 247);
               margin: 10px;
-              width: 200px;
+              width: 210px;
               height: 30px;
               font-size: 0.7em;
               font-weight: 500;
@@ -201,13 +206,14 @@ const RecordSetup = () => {
             }
 
             .btn {
-              width: 180px;
+              width: 210px;
               height: 30px;
               border: none;
               border-radius: 20px;
               background-color: #4b84f3;
               color: white;
               font-weight: 500;
+              margin-top: 20px;
               margin-bottom: 10px;
               cursor: pointer;
               font-weight:600;
