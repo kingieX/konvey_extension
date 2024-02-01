@@ -105,7 +105,7 @@ const VideoLabel = () => {
                 margin-left: -5px;
             }
             .inputStyle .btn {
-                width: 100px;
+                width: 105px;
                 font-size: 0.7em;
                 padding: 10px;
                 border: none;
