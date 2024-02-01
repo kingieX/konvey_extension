@@ -190,13 +190,15 @@ const RecordingPreference = () => {
             }
 
             .signout-box {
+              // position: absolute;
               background-color: #eff3ff;
-              height: 60px;
+              height: 50px;
               margin-top: 10px;
               display: flex;
               justify-content: space-between;
               align-items: center;
-              padding: 0 30px;
+              padding: 15px 30px;
+              // bottom : -30px;
             }
             .signout-box div {
               line-height: 0.2;
