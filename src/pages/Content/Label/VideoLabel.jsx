@@ -91,20 +91,21 @@ const VideoLabel = () => {
             .inputStyle {
                 display: flex;
                 flex-direction: row;
-                gap: 10px;
+                gap: 5px;
                 justify-content: space-around;
                 align-items: center;
                 margin-top: 5px;
                 margin-bottom: 10px
             }
             .inputStyle input {
+                // width: 200px;
                 border: 1px solid #ddd;
                 outline: none;
                 border-radius: 5px;
                 margin-left: -5px;
             }
             .inputStyle .btn {
-                width: 120px;
+                width: 100px;
                 font-size: 0.7em;
                 padding: 10px;
                 border: none;
@@ -117,6 +118,7 @@ const VideoLabel = () => {
                 align-items: center;
                 border: none;
                 background-color: #fff;
+                border-radius: 5px;
                 gap: 5px;
                 font-size: 0.7em;
                 color: #4b84f3;
