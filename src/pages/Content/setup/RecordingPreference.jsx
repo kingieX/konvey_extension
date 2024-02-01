@@ -82,7 +82,7 @@ const RecordingPreference = () => {
                 flex-direction: column;
                 // justify-content: start;
                 // align-items: center;
-                height: 68vh;
+                height: 72vh;
                 width: 30vw;
                 // border: 1px solid black;
                 border-radius: 2px;
@@ -90,7 +90,7 @@ const RecordingPreference = () => {
                 background-color: #fff;
                 box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
                 position: absolute;
-                top: 35%;
+                top: 37%;
                 left: 84%;
                 transform: translate(-50%, -50%);
             }

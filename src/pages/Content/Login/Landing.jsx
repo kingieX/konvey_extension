@@ -32,7 +32,7 @@ const Landing = () => {
                 flex-direction: column;
                 justify-content: space-around;
                 align-items: center;
-                height: 60vh;
+                height: 65vh;
                 width: 27vw;
                 // border: 1px solid black;
                 border-radius: 2px;
@@ -40,7 +40,7 @@ const Landing = () => {
                 background-color: #fff;
                 box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
                 position: absolute;
-                top: 34%;
+                top: 37%;
                 left: 84%;
                 transform: translate(-50%, -50%);
             }

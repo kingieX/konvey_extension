@@ -40,7 +40,7 @@ const MyRecordings = () => {
                 flex-direction: column;
                 // justify-content: start;
                 // align-items: center;
-                height: 70vh;
+                height: 72vh;
                 width: 30vw;
                 // border: 1px solid black;
                 border-radius: 2px;
@@ -48,7 +48,7 @@ const MyRecordings = () => {
                 background-color: rgb(249, 249, 249);
                 box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
                 position: absolute;
-                top: 36%;
+                top: 37%;
                 left: 84%;
                 transform: translate(-50%, -50%);
             }
