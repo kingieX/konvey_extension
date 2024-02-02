@@ -206,17 +206,17 @@ const RecordSetup = () => {
             }
 
             .btn {
-              width: 210px;
-              height: 30px;
+              width: 220px;
+              height: 35px;
               border: none;
               border-radius: 20px;
               background-color: #4b84f3;
               color: white;
-              font-weight: 500;
               margin-top: 20px;
               margin-bottom: 10px;
               cursor: pointer;
-              font-weight:600;
+              font-weight:500;
+              font-size: 1em;
             }
             .btn:hover {
               background-color: #efac25;

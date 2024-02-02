@@ -87,6 +87,7 @@ const Landing = () => {
               color: white;
               font-weight: 500;
               font-size: 1em;
+              font-size: 1em;
               margin-bottom: 10px;
               cursor: pointer;
             }

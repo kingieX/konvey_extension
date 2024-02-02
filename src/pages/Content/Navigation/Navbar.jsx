@@ -27,7 +27,7 @@ const Navbar = () => {
             </div>
             <div className='menu'>
               <NavLink to="/setup" className="activeClass" isActive={() => location.pathname === '/setup'}>
-                <img src={location.pathname === '/setup' ? VideoActive : Video} alt="Menu Icon" style={{width:14}}/>
+                <img src={location.pathname === '/setup' ? VideoActive : Video} alt="Menu Icon" style={{width:20}}/>
               </NavLink>
 
               <NavLink to="/videolabel" className="activeClass" isActive={() => location.pathname === '/videolabel'}>
@@ -80,7 +80,7 @@ const Navbar = () => {
 
             .menu {
               display: flex;
-              gap: 10px;
+              gap: 15px;
               justify-content: center;
               align-items: center;
               // padding-top: 10px;
