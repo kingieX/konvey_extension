@@ -197,7 +197,7 @@ const RecordingPreference = () => {
               display: flex;
               justify-content: space-between;
               align-items: center;
-              padding: 15px 30px;
+              padding: 20px 30px;
               // bottom : -30px;
             }
             .signout-box div {
