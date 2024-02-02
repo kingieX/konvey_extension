@@ -79,8 +79,8 @@ const Landing = () => {
             }
 
             .btn button {
-              width: 210px;
-              height: 30px;
+              width: 220px;
+              height: 35px;
               border: none;
               border-radius: 20px;
               background-color: #4b84f3;
