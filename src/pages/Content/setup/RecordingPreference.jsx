@@ -64,7 +64,6 @@ const RecordingPreference = () => {
             </div>
           </div>
 
-        </div>
 
           {/* sign out*/}
           <div className='signout-box'>
@@ -75,6 +74,7 @@ const RecordingPreference = () => {
             </div>
             <button className='btn3'>Sign out</button>
           </div>
+        </div>
         <style>
         {`
             .box {
@@ -192,14 +192,14 @@ const RecordingPreference = () => {
             .signout-box {
               position: absolute;
               background-color: #eff3ff;
-              width: 275px;
+              width: 85%;
               height: 50px;
               margin-top: 10px;
               display: flex;
               justify-content: space-between;
               align-items: center;
               padding: 10px 30px;
-
+              right: 0%;
               bottom : 0px;
             }
             .signout-box div {
